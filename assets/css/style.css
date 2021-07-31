@@ -1,0 +1,191 @@
+.register-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.register-form .register-box-formulaire {
+  padding: 15px 0px;
+  width: 100%;
+}
+.register-form .register-box-formulaire > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px 0px;
+}
+.register-form .register-box-formulaire > div label {
+  padding: 0px;
+}
+.register-form .register-box-formulaire > div #cgu-check {
+  width: 30px;
+}
+.register-form .register-box-formulaire label, .register-form .register-box-formulaire input, .register-form .register-box-formulaire button {
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+}
+section .window {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/background/homepage.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .window .window-in {
+  width: 50vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.543);
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 60px;
+}
+section .window .window-in img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  opacity: 0.8;
+}
+section .window .window-in p {
+  text-align: center;
+  font-size: 10px;
+}
+
+header {
+  width: 100vw;
+  height: auto;
+  flex-direction: column;
+}
+header #header-top {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header #header-top h1 {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+header #header-top h1 a {
+  color: white;
+}
+header nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+header nav ul li {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+header nav ul li:hover {
+  transform: scale(1.1);
+}
+header nav ul li a {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "montserrat";
+  font-weight: 500;
+}
+header nav ul li a:hover {
+  opacity: 0.7;
+}
+
+@font-face {
+  font-family: "Monstserrat";
+  src: url("../font/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "gallient";
+  src: url("../font/gallientregular.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/Roboto-Regular.ttf");
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+H1 {
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+H2 {
+  font-family: "Roboto";
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: "roboto";
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+H4 {
+  font-size: 12px;
+  font-family: "roboto";
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+p {
+  color: black;
+}
+
+label {
+  font-family: "montserrat";
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

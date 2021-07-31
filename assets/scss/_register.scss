@@ -1,0 +1,34 @@
+.register-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    .register-box-formulaire {
+        padding: 15px 0px;
+        width: 100%;
+        >div {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-around;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px 0px;
+            label {
+                padding: 0px
+            }
+            #cgu-check {
+                width: 30px;
+            }
+        }
+        label, input, button {
+            text-align: center;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0px;
+        }
+    }
+}
