@@ -1,3 +1,4 @@
+<?php $page = 'Register'; ?>
 <?php require 'inc/header.php' ?>
 <?php
     if (!empty($_POST['email_signup']) && !empty($_POST['password1_signup']) && !empty($_POST['password2_signup']) && !empty($_POST['username_signup']) &&  isset($_POST['submit_signup'])) {
@@ -54,23 +55,23 @@
                 <form action="#" method="POST" class="register-form">
                     <div class="register-box-formulaire">
                         <label>EMAIL</label>
-                        <input class="register-input-form" type="email" placeholder="" name="email_signup" required>
+                        <input class="register-input-form" type="email" placeholder="exemple@mail.com" name="email_signup" required>
                     </div>
 
                     <div class="register-box-formulaire">
                         <label>USERNAME</label>
-                        <input class="register-input-form" type="text" placeholder="" name="username_signup" required>
+                        <input class="register-input-form" type="text" placeholder="choose a username" name="username_signup" required>
                     </div>
 
                     <div class="register-box-formulaire">
                         <label>CHOOSE A PASSWORD</label>
-                        <input class="register-input-form" type="password" placeholder=""
+                        <input class="register-input-form" type="password" placeholder="choose a password"
                         name="password1_signup" required>
                     </div>
 
                     <div class="register-box-formulaire">
                         <label>ENTER YOUR PASSWORD AGAIN</label>
-                        <input class="register-input-form" type="password" placeholder="" name="password2_signup" required>
+                        <input class="register-input-form" type="password" placeholder="enter your password again" name="password2_signup" required>
                     </div>
 
                     <!-- <div class="register-box-formulaire">

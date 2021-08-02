@@ -17,7 +17,7 @@ if (isset($_GET['logout'])) {
     header('Location: index.php');
 }
 
-// if (empty($_SESSION['id']) && (!isset($page) || $page != 'Homepage' && $page != 'products' && $page != 'Login' && $page != 'Register')) {
+// if (empty($_SESSION['id']) && (!isset($page) || $page != 'index' && $page != 'products' && $page != 'login' && $page != 'register')) {
 //     header('Location:login.php?p');
 // }
 ?>

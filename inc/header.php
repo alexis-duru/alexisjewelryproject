@@ -22,17 +22,26 @@
         <nav>
             <ul>
                 <li>
-                    <a href='#'>HOME</a>
+                    <a href='index.php'>HOME</a>
                 </li>
                 <li>
                     <a href='#'>JEWELRY</a>
                 </li>
+                <?php if(!empty($_SESSION['id'])) { ?>
                 <li>
-                    <a href='#'>LOGIN</a>
+                    <a href='profile.php'>PROFILE</a>
                 </li>
                 <li>
-                    <a href='#'>REGISTER</a>
+                    <a href='?logout'>LOGOUT</a>
                 </li>
+                <?php }else{ ?>
+                <li>
+                    <a href='login.php'>LOGIN</a>
+                </li>
+                <li>
+                    <a href='register.php'>REGISTER</a>
+                </li>
+                <?php } ?>
             </ul>
         </nav>
     </header>
