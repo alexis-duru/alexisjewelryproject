@@ -27,7 +27,7 @@ if (!empty($_SESSION)) {
                 </div>
                 <?php
                 if ($user['role'] === 'ROLE_ADMIN') {
-                    echo '<a href="dashboard.php"> ACCESS OF ADMINISTRATOR AREA </a>';?>
+                    echo '<a class="btn-middle" href="dashboard.php"> ACCESS OF ADMINISTRATOR AREA </a>';?>
                 <?php
                 }
                 ?>

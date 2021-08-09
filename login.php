@@ -27,7 +27,7 @@ if (!empty($_POST['email_login']) && !empty($_POST['password_login']) && isset($
                 $type = 'success';
                 $message = "Vous êtes désormais connectés";
                 unset($_POST);
-                header('Location: index.php');
+                header('Location: profile.php');
             } else {
                 $alert = true;
                 $type = 'danger';

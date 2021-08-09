@@ -25,7 +25,7 @@
                     <a href='index.php'>HOME</a>
                 </li>
                 <li>
-                    <a href='#'>JEWELRY</a>
+                    <a href='#'>SHOP</a>
                 </li>
                 <?php if(!empty($_SESSION['id'])) { ?>
                 <li>
