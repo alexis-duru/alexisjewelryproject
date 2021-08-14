@@ -85,32 +85,45 @@ if (isset($_POST['submit']) && !empty($_POST['name']) && !empty($_POST['category
 <section>
     <div class="window">
         <div class="window-in">
-            <form action="#" method="post" enctype="multipart/form-data">
-                <h3>name</h3>
+            <form action="#" method="post" enctype="multipart/form-data" id="addproductform">
+                <div>
+                    <h3>name</h3>
                     <input class="input-form" type="text" name="name" value="" placeholder="Name of the product">
-                <h3>image</h3>
+                </div>
+
+                <div>
+                    <h3>image</h3>
                     <div class="input-form">
                         <input type="file" id='Inputimage' name='image' accept=".png, .jpg, .jpeg">
                     </div>
-                <h3>category</h3>
-                    <select class="input-form" name="category">
-                <label class="input-form" for="category-select">Category of product</label>
-                <option value="">--Please choose the category--</option>
-                <?php
-                foreach ($categories as $category) {
-                ?>
-                <option value="<?php echo $category['id']; ?>">
-                    <?php echo $category['name']; ?>
-                </option>
-                <?php
-                }
-                ?>
-                </select>
-                <h3>description</h3>
-                <textarea class="input-form" id="description" value="" placeholder="" name="description"></textarea>
-                <h3>price</h3>
-                <input class="input-form" type="text" name="price" value="" placeholder="Price (euros)" required>
-                <h3>color</h3>
+                </div>
+                <div>
+                    <h3>category</h3>
+                        <select class="input-form" name="category">
+                    <label class="input-form" for="category-select">Category of product</label>
+                    <option value="">--Please choose the category--</option>
+                    <?php
+                    foreach ($categories as $category) {
+                    ?>
+                    <option value="<?php echo $category['id']; ?>">
+                        <?php echo $category['name']; ?>
+                    </option>
+                    <?php
+                    }
+                    ?>
+                    </select>
+                </div>
+                <div>
+                    <h3>description</h3>
+                    <textarea class="input-form" id="description" value="" placeholder="" name="description"></textarea>
+                </div>
+                <div>
+                    <h3>price</h3>
+                    <input class="input-form" type="text" name="price" value="" placeholder="Price (euros)" required>
+                </div>
+                
+                <div>
+                    <h3>color</h3>
                     <select class="input-form" name="color">
                     <label class="input-form" for="color-select">Color of product</label> 
                     <option value="">--Please choose the color--</option>
@@ -124,9 +137,9 @@ if (isset($_POST['submit']) && !empty($_POST['name']) && !empty($_POST['category
                     }
                     ?>
                     </select>
+                </div>
                 <div id="create-return">
-                    <button name="submit" type="submit">ADD PRODUCT</button>
-                    <a class="btn-return" href="profil.php">BACK HOME</a>
+                    <button class="middle-btn" name="submit" type="submit">ADD PRODUCT</button>
                 </div>
             </form>
         <div>

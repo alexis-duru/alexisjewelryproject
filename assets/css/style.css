@@ -1,15 +1,14 @@
 .photoprofil {
-  width: 200px;
-  border-radius: 100px;
+  margin: auto;
 }
 .photoprofil img {
-  width: 200px;
+  width: 130px;
   border-radius: 100px;
 }
 
 .window {
   width: 100%;
-  height: 100%;
+  min-height: auto;
   background-image: url("../img/background/background2.jpg");
   background-color: #f7e0c3;
   background-size: cover;
@@ -18,10 +17,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 80px 0px;
 }
 .window .window-in {
   width: 40vw;
-  min-height: 40vw;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,6 +30,7 @@
   border: 1px solid white;
   border-radius: 15px;
   padding: 45px;
+  margin: auto;
 }
 .window .window-in .register-form {
   display: flex;
@@ -173,15 +174,12 @@ header nav ul li {
   transform: scale(1);
   transition: 0.5s ease-in-out;
 }
-header nav ul li:hover {
-  transform: scale(1.1);
-}
 header nav ul li a {
   width: 100%;
   justify-content: center;
   align-items: center;
-  font-family: "montserrat";
-  font-weight: 500;
+  font-family: "roboto";
+  font-weight: 400;
   letter-spacing: 3px;
 }
 header nav ul li a:hover {
@@ -217,6 +215,7 @@ H2 {
   font-size: 30px;
   letter-spacing: 5px;
   text-transform: uppercase;
+  margin: auto;
 }
 
 h3 {
@@ -247,7 +246,7 @@ a {
   text-decoration: none;
 }
 
-.btn-middle {
+.middle-btn {
   border: 1px solid black;
   padding: 15px;
   border-radius: 50px;
@@ -255,12 +254,43 @@ a {
   color: white;
   letter-spacing: 3px;
   font-size: 10px;
-  transition: 0.6s ease-in-out;
+  transition: 0.2s ease-in-out;
+  min-width: 150px;
+  text-align: center;
+  margin: auto;
 }
-.btn-middle:hover {
+.middle-btn:hover {
   opacity: 0.8;
   background-color: white;
   color: black;
+}
+
+#addproductform {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90vh;
+}
+#addproductform div {
+  margin: auto;
+  width: 100%;
+}
+#addproductform .input-form {
+  width: 100%;
+  outline: none;
+  padding: 10px 0px;
+  text-align: center;
+}
+#addproductform h3 {
+  margin-top: 15px 0px;
+  text-transform: uppercase;
+}
+
+#create-return {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */

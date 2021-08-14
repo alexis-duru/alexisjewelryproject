@@ -4,9 +4,9 @@
 <section>
     <div class="window">
         <div class="window-in">
-            <a href="customers.php">CUSTOMERS</a>
-            <a href="addproduct.php">ADD PRODUCTS</a>
-            <a>LIST OF PRODUCTS</a>
+            <a class="middle-btn" href="customers.php">CUSTOMERS</a>
+            <a class="middle-btn"href="addproduct.php">ADD PRODUCTS</a>
+            <a class="middle-btn">LIST OF PRODUCTS</a>
         <div>
     </div>
 </section>

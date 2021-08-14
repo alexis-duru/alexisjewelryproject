@@ -1,0 +1,26 @@
+#addproductform {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vh;
+    div {
+        margin: auto;
+        width: 100%;
+    }
+    .input-form {
+        width: 100%;
+        outline: none;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    h3 {
+        margin-top: 15px 0px;
+        text-transform: uppercase;
+    }
+}
+#create-return {
+    display: flex;
+    flex-direction: column;
+}
