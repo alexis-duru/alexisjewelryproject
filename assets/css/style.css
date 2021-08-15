@@ -293,4 +293,25 @@ a {
   flex-direction: column;
 }
 
+.shop {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url("../img/background/background2.jpg");
+  background-color: #f7e0c3;
+  background-size: cover;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px;
+}
+.shop .all {
+  display: flex;
+  margin: auto;
+}
+.shop .all .one {
+  margin: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
